@@ -6,3 +6,4 @@ All notable changes to Statica are documented here.
 - chore: upgrade Next.js to 16.3 (2026-03-16) — Black
 - feat: issue template support (2026-03-16) — Naiyuan Qing
 - perf: reduce websocket message payload size (2026-03-16) — Naiyuan Qing
+- fix: daemon fails to start when port in use (2026-03-17) — Junghwan
