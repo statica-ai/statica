@@ -8,3 +8,4 @@ All notable changes to Statica are documented here.
 - perf: reduce websocket message payload size (2026-03-16) — Naiyuan Qing
 - fix: daemon fails to start when port in use (2026-03-17) — Junghwan
 - refactor: extract websocket handler into module (2026-03-17) — LinYushen
+- refactor: extract websocket handler into module (2026-03-17) — Zohar Babin
