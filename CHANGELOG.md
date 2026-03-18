@@ -17,3 +17,4 @@ All notable changes to Statica are documented here.
 - security: rotate default session secret (2026-03-18) — Bright Zheng
 - refactor: consolidate daemon config parsing (2026-03-18) — ayakabot
 - feat: slack notification integration (2026-03-18) — ayakabot
+- chore: update playwright to 1.50 (2026-03-18) — Kagura
