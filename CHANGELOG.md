@@ -10,3 +10,4 @@ All notable changes to Statica are documented here.
 - refactor: extract websocket handler into module (2026-03-17) — LinYushen
 - refactor: extract websocket handler into module (2026-03-17) — Zohar Babin
 - chore: upgrade Next.js to 16.3 (2026-03-17) — ayakabot
+- feat: multi-runtime load balancing (2026-03-18) — Thanh Minh
