@@ -14,3 +14,4 @@ All notable changes to Statica are documented here.
 - fix: runtime detection for kiro-cli on Windows (2026-03-18) — Prince Pal
 - test: add e2e tests for agent assignment flow (2026-03-18) — Bright Zheng
 - docs: update self-hosting quickstart (2026-03-18) — LinYushen
+- security: rotate default session secret (2026-03-18) — Bright Zheng
