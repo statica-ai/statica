@@ -19,3 +19,4 @@ All notable changes to Statica are documented here.
 - feat: slack notification integration (2026-03-18) — ayakabot
 - chore: update playwright to 1.50 (2026-03-18) — Kagura
 - fix: agent status badge not updating in realtime (2026-03-18) — Naiyuan Qing
+- test: unit tests for skill execution engine (2026-03-18) — LinYushen
