@@ -12,3 +12,4 @@ All notable changes to Statica are documented here.
 - chore: upgrade Next.js to 16.3 (2026-03-17) — ayakabot
 - feat: multi-runtime load balancing (2026-03-18) — Thanh Minh
 - fix: runtime detection for kiro-cli on Windows (2026-03-18) — Prince Pal
+- test: add e2e tests for agent assignment flow (2026-03-18) — Bright Zheng
