@@ -15,3 +15,4 @@ All notable changes to Statica are documented here.
 - test: add e2e tests for agent assignment flow (2026-03-18) — Bright Zheng
 - docs: update self-hosting quickstart (2026-03-18) — LinYushen
 - security: rotate default session secret (2026-03-18) — Bright Zheng
+- refactor: consolidate daemon config parsing (2026-03-18) — ayakabot
