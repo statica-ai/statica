@@ -16,3 +16,4 @@ All notable changes to Statica are documented here.
 - docs: update self-hosting quickstart (2026-03-18) — LinYushen
 - security: rotate default session secret (2026-03-18) — Bright Zheng
 - refactor: consolidate daemon config parsing (2026-03-18) — ayakabot
+- feat: slack notification integration (2026-03-18) — ayakabot
