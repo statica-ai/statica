@@ -21,3 +21,4 @@ All notable changes to Statica are documented here.
 - fix: agent status badge not updating in realtime (2026-03-18) — Naiyuan Qing
 - test: unit tests for skill execution engine (2026-03-18) — LinYushen
 - perf: lazy-load board issue details (2026-03-19) — Bright Zheng
+- feat: drag-and-drop issue reordering (2026-03-19) — Kagura
