@@ -23,3 +23,4 @@ All notable changes to Statica are documented here.
 - perf: lazy-load board issue details (2026-03-19) — Bright Zheng
 - feat: drag-and-drop issue reordering (2026-03-19) — Kagura
 - feat: workspace member invite flow (2026-03-19) — LinYushen
+- docs: add Windows setup walkthrough (2026-03-20) — Kagura
