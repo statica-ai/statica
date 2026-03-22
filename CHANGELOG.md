@@ -27,3 +27,4 @@ All notable changes to Statica are documented here.
 - fix: daemon fails to start when port in use (2026-03-21) — Prince Pal
 - docs: update self-hosting quickstart (2026-03-21) — Black
 - security: rotate default session secret (2026-03-21) — Naiyuan Qing
+- chore: upgrade Next.js to 16.3 (2026-03-22) — ayakabot
