@@ -26,3 +26,4 @@ All notable changes to Statica are documented here.
 - docs: add Windows setup walkthrough (2026-03-20) — Kagura
 - fix: daemon fails to start when port in use (2026-03-21) — Prince Pal
 - docs: update self-hosting quickstart (2026-03-21) — Black
+- security: rotate default session secret (2026-03-21) — Naiyuan Qing
