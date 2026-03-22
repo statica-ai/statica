@@ -29,3 +29,4 @@ All notable changes to Statica are documented here.
 - security: rotate default session secret (2026-03-21) — Naiyuan Qing
 - chore: upgrade Next.js to 16.3 (2026-03-22) — ayakabot
 - fix: desktop app crash on macOS Sequoia (2026-03-22) — Naiyuan Qing
+- feat: dark mode refinements (2026-03-22) — LinYushen
