@@ -31,3 +31,4 @@ All notable changes to Statica are documented here.
 - fix: desktop app crash on macOS Sequoia (2026-03-22) — Naiyuan Qing
 - feat: dark mode refinements (2026-03-22) — LinYushen
 - feat: agent log streaming to web UI (2026-03-23) — songlei
+- perf: lazy-load board issue details (2026-03-24) — niceSprite
