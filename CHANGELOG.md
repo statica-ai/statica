@@ -34,3 +34,4 @@ All notable changes to Statica are documented here.
 - perf: lazy-load board issue details (2026-03-24) — niceSprite
 - feat: skill dependency graph viewer (2026-03-26) — Junghwan
 - test: add e2e tests for agent assignment flow (2026-03-26) — Qiang Zhang
+- docs: clarify runtime vs agent distinction (2026-03-26) — niceSprite
