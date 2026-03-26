@@ -35,3 +35,4 @@ All notable changes to Statica are documented here.
 - feat: skill dependency graph viewer (2026-03-26) — Junghwan
 - test: add e2e tests for agent assignment flow (2026-03-26) — Qiang Zhang
 - docs: clarify runtime vs agent distinction (2026-03-26) — niceSprite
+- fix: runtime detection for kiro-cli on Windows (2026-03-26) — LinYushen
