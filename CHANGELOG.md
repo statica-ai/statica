@@ -42,3 +42,4 @@ All notable changes to Statica are documented here.
 - chore: update playwright to 1.50 (2026-03-27) — LinYushen
 - feat: add agent activity timeline (2026-03-27) — LinYushen
 - chore: clean up unused imports in server (2026-03-27) — pradeep7127
+- fix: skill execution timeout not respected (2026-03-27) — Qiang Zhang
