@@ -43,3 +43,4 @@ All notable changes to Statica are documented here.
 - feat: add agent activity timeline (2026-03-27) — LinYushen
 - chore: clean up unused imports in server (2026-03-27) — pradeep7127
 - fix: skill execution timeout not respected (2026-03-27) — Qiang Zhang
+- fix: resolve websocket reconnection timeout (2026-03-27) — ayakabot
