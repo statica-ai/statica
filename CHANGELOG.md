@@ -37,3 +37,4 @@ All notable changes to Statica are documented here.
 - docs: clarify runtime vs agent distinction (2026-03-26) — niceSprite
 - fix: runtime detection for kiro-cli on Windows (2026-03-26) — LinYushen
 - fix: runtime detection for kiro-cli on Windows (2026-03-26) — Quake Wang
+- feat: dark mode refinements (2026-03-26) — ayakabot
