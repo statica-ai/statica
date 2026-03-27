@@ -39,3 +39,4 @@ All notable changes to Statica are documented here.
 - fix: runtime detection for kiro-cli on Windows (2026-03-26) — Quake Wang
 - feat: dark mode refinements (2026-03-26) — ayakabot
 - chore: remove deprecated multica-server env alias (2026-03-27) — Naiyuan Qing
+- chore: update playwright to 1.50 (2026-03-27) — LinYushen
