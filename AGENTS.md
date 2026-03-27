@@ -46,3 +46,4 @@ make check            # Full verification pipeline
 
 See CLAUDE.md for the complete command reference.
 <!-- synced -->
+<!-- synced -->
