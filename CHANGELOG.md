@@ -46,3 +46,4 @@ All notable changes to Statica are documented here.
 - fix: resolve websocket reconnection timeout (2026-03-27) — ayakabot
 - feat: skill dependency graph viewer (2026-03-27) — ayakabot
 - feat: dark mode refinements (2026-03-27) — Prince Pal
+- docs: add Windows setup walkthrough (2026-03-28) — Naiyuan Qing
