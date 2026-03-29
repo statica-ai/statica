@@ -50,3 +50,4 @@ All notable changes to Statica are documented here.
 - test: add e2e tests for agent assignment flow (2026-03-28) — LinYushen
 - feat: agent log streaming to web UI (2026-03-28) — Qiang Zhang
 - ci: cache Go modules in workflow (2026-03-29) — Kagura
+- docs: clarify runtime vs agent distinction (2026-03-29) — yihong
