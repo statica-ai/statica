@@ -51,3 +51,4 @@ All notable changes to Statica are documented here.
 - feat: agent log streaming to web UI (2026-03-28) — Qiang Zhang
 - ci: cache Go modules in workflow (2026-03-29) — Kagura
 - docs: clarify runtime vs agent distinction (2026-03-29) — yihong
+- fix: race condition in daemon task pickup (2026-03-29) — Thanh Minh
