@@ -48,3 +48,4 @@ All notable changes to Statica are documented here.
 - feat: dark mode refinements (2026-03-27) — Prince Pal
 - docs: add Windows setup walkthrough (2026-03-28) — Naiyuan Qing
 - test: add e2e tests for agent assignment flow (2026-03-28) — LinYushen
+- feat: agent log streaming to web UI (2026-03-28) — Qiang Zhang
