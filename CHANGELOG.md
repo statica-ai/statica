@@ -52,3 +52,4 @@ All notable changes to Statica are documented here.
 - ci: cache Go modules in workflow (2026-03-29) — Kagura
 - docs: clarify runtime vs agent distinction (2026-03-29) — yihong
 - fix: race condition in daemon task pickup (2026-03-29) — Thanh Minh
+- feat: workspace member invite flow (2026-03-30) — LinYushen
