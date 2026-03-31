@@ -56,3 +56,4 @@ All notable changes to Statica are documented here.
 - docs: add Windows setup walkthrough (2026-03-31) — pradeep7127
 - docs: add troubleshooting section to CLI guide (2026-03-31) — LinYushen
 - fix: skill execution timeout not respected (2026-03-31) — LinYushen
+- fix: issue assignment not persisting on refresh (2026-03-31) — Truffle
