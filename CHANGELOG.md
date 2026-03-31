@@ -55,3 +55,4 @@ All notable changes to Statica are documented here.
 - feat: workspace member invite flow (2026-03-30) — LinYushen
 - docs: add Windows setup walkthrough (2026-03-31) — pradeep7127
 - docs: add troubleshooting section to CLI guide (2026-03-31) — LinYushen
+- fix: skill execution timeout not respected (2026-03-31) — LinYushen
