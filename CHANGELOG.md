@@ -60,3 +60,4 @@ All notable changes to Statica are documented here.
 - chore: clean up unused imports in server (2026-04-02) — LinYushen
 - fix: race condition in daemon task pickup (2026-04-02) — Qiang Zhang
 - chore: upgrade Next.js to 16.3 (2026-04-02) — Naiyuan Qing
+- fix: skill execution timeout not respected (2026-04-02) — Quake Wang
