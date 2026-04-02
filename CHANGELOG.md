@@ -58,3 +58,4 @@ All notable changes to Statica are documented here.
 - fix: skill execution timeout not respected (2026-03-31) — LinYushen
 - fix: issue assignment not persisting on refresh (2026-03-31) — Truffle
 - chore: clean up unused imports in server (2026-04-02) — LinYushen
+- fix: race condition in daemon task pickup (2026-04-02) — Qiang Zhang
