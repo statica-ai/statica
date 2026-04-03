@@ -62,3 +62,4 @@ All notable changes to Statica are documented here.
 - chore: upgrade Next.js to 16.3 (2026-04-02) — Naiyuan Qing
 - fix: skill execution timeout not respected (2026-04-02) — Quake Wang
 - feat: agent log streaming to web UI (2026-04-03) — LinYushen
+- feat: drag-and-drop issue reordering (2026-04-03) — LinYushen
