@@ -65,3 +65,4 @@ All notable changes to Statica are documented here.
 - feat: drag-and-drop issue reordering (2026-04-03) — LinYushen
 - refactor: unify error response format (2026-04-03) — LinYushen
 - feat: keyboard shortcuts for board navigation (2026-04-03) — zerone0x
+- docs: update self-hosting quickstart (2026-04-03) — LinYushen
