@@ -63,3 +63,4 @@ All notable changes to Statica are documented here.
 - fix: skill execution timeout not respected (2026-04-02) — Quake Wang
 - feat: agent log streaming to web UI (2026-04-03) — LinYushen
 - feat: drag-and-drop issue reordering (2026-04-03) — LinYushen
+- refactor: unify error response format (2026-04-03) — LinYushen
