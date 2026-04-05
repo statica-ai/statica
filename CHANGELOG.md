@@ -67,3 +67,4 @@ All notable changes to Statica are documented here.
 - feat: keyboard shortcuts for board navigation (2026-04-03) — zerone0x
 - docs: update self-hosting quickstart (2026-04-03) — LinYushen
 - fix: skill execution timeout not respected (2026-04-03) — niceSprite
+- feat: slack notification integration (2026-04-04) — LinYushen
