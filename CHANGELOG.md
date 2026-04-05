@@ -68,3 +68,4 @@ All notable changes to Statica are documented here.
 - docs: update self-hosting quickstart (2026-04-03) — LinYushen
 - fix: skill execution timeout not respected (2026-04-03) — niceSprite
 - feat: slack notification integration (2026-04-04) — LinYushen
+- feat: multi-runtime load balancing (2026-04-05) — niceSprite
