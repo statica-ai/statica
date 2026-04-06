@@ -69,3 +69,4 @@ All notable changes to Statica are documented here.
 - fix: skill execution timeout not respected (2026-04-03) — niceSprite
 - feat: slack notification integration (2026-04-04) — LinYushen
 - feat: multi-runtime load balancing (2026-04-05) — niceSprite
+- chore: update pnpm lockfile (2026-04-06) — LinYushen
