@@ -72,3 +72,4 @@ All notable changes to Statica are documented here.
 - chore: update pnpm lockfile (2026-04-06) — LinYushen
 - feat: slack notification integration (2026-04-06) — Prince Pal
 - fix: correct env var name STATICA_SERVER_URL (2026-04-06) — Qiang Zhang
+- refactor: unify error response format (2026-04-07) — pradeep7127
