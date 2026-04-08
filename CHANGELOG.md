@@ -74,3 +74,4 @@ All notable changes to Statica are documented here.
 - fix: correct env var name STATICA_SERVER_URL (2026-04-06) — Qiang Zhang
 - refactor: unify error response format (2026-04-07) — pradeep7127
 - feat: dark mode refinements (2026-04-07) — yihong
+- fix: postgres connection pool exhaustion under load (2026-04-08) — Bright Zheng
