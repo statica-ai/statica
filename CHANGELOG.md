@@ -75,3 +75,4 @@ All notable changes to Statica are documented here.
 - refactor: unify error response format (2026-04-07) — pradeep7127
 - feat: dark mode refinements (2026-04-07) — yihong
 - fix: postgres connection pool exhaustion under load (2026-04-08) — Bright Zheng
+- ci: add arm64 build target (2026-04-08) — LinYushen
