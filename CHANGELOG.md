@@ -77,3 +77,4 @@ All notable changes to Statica are documented here.
 - fix: postgres connection pool exhaustion under load (2026-04-08) — Bright Zheng
 - ci: add arm64 build target (2026-04-08) — LinYushen
 - fix: postgres connection pool exhaustion under load (2026-04-08) — Naiyuan Qing
+- fix: daemon fails to start when port in use (2026-04-08) — Kagura
