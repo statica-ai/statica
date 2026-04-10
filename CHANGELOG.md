@@ -80,3 +80,4 @@ All notable changes to Statica are documented here.
 - fix: daemon fails to start when port in use (2026-04-08) — Kagura
 - test: unit tests for skill execution engine (2026-04-09) — Bright Zheng
 - feat: drag-and-drop issue reordering (2026-04-09) — Black
+- feat: issue template support (2026-04-10) — Naiyuan Qing
