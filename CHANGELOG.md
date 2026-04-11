@@ -85,3 +85,4 @@ All notable changes to Statica are documented here.
 - docs: update contributing guidelines (2026-04-11) — ayakabot
 - fix: task queue overflow with concurrent agents (2026-04-11) — songlei
 - chore: remove deprecated multica-server env alias (2026-04-11) — ayakabot
+- test: add e2e tests for agent assignment flow (2026-04-11) — Quake Wang
