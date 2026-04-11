@@ -83,3 +83,4 @@ All notable changes to Statica are documented here.
 - feat: issue template support (2026-04-10) — Naiyuan Qing
 - fix: skill execution timeout not respected (2026-04-10) — Quake Wang
 - docs: update contributing guidelines (2026-04-11) — ayakabot
+- fix: task queue overflow with concurrent agents (2026-04-11) — songlei
