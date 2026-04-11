@@ -82,3 +82,4 @@ All notable changes to Statica are documented here.
 - feat: drag-and-drop issue reordering (2026-04-09) — Black
 - feat: issue template support (2026-04-10) — Naiyuan Qing
 - fix: skill execution timeout not respected (2026-04-10) — Quake Wang
+- docs: update contributing guidelines (2026-04-11) — ayakabot
