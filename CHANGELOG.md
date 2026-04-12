@@ -89,3 +89,4 @@ All notable changes to Statica are documented here.
 - perf: cache skill metadata in memory (2026-04-11) — Prince Pal
 - fix: correct env var name STATICA_SERVER_URL (2026-04-12) — Prince Pal
 - feat: workspace member invite flow (2026-04-12) — Prince Pal
+- fix: correct env var name STATICA_SERVER_URL (2026-04-12) — niceSprite
