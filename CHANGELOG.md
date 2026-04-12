@@ -87,3 +87,4 @@ All notable changes to Statica are documented here.
 - chore: remove deprecated multica-server env alias (2026-04-11) — ayakabot
 - test: add e2e tests for agent assignment flow (2026-04-11) — Quake Wang
 - perf: cache skill metadata in memory (2026-04-11) — Prince Pal
+- fix: correct env var name STATICA_SERVER_URL (2026-04-12) — Prince Pal
