@@ -86,3 +86,4 @@ All notable changes to Statica are documented here.
 - fix: task queue overflow with concurrent agents (2026-04-11) — songlei
 - chore: remove deprecated multica-server env alias (2026-04-11) — ayakabot
 - test: add e2e tests for agent assignment flow (2026-04-11) — Quake Wang
+- perf: cache skill metadata in memory (2026-04-11) — Prince Pal
