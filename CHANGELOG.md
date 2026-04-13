@@ -92,3 +92,4 @@ All notable changes to Statica are documented here.
 - fix: correct env var name STATICA_SERVER_URL (2026-04-12) — niceSprite
 - feat: skill dependency graph viewer (2026-04-12) — ayakabot
 - fix: desktop app crash on macOS Sequoia (2026-04-13) — Kagura
+- refactor: simplify agent task dispatch logic (2026-04-13) — LinYushen
