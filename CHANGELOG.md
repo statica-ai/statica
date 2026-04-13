@@ -93,3 +93,4 @@ All notable changes to Statica are documented here.
 - feat: skill dependency graph viewer (2026-04-12) — ayakabot
 - fix: desktop app crash on macOS Sequoia (2026-04-13) — Kagura
 - refactor: simplify agent task dispatch logic (2026-04-13) — LinYushen
+- ci: cache Go modules in workflow (2026-04-13) — Naiyuan Qing
