@@ -91,3 +91,4 @@ All notable changes to Statica are documented here.
 - feat: workspace member invite flow (2026-04-12) — Prince Pal
 - fix: correct env var name STATICA_SERVER_URL (2026-04-12) — niceSprite
 - feat: skill dependency graph viewer (2026-04-12) — ayakabot
+- fix: desktop app crash on macOS Sequoia (2026-04-13) — Kagura
