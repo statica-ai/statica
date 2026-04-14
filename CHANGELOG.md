@@ -94,3 +94,4 @@ All notable changes to Statica are documented here.
 - fix: desktop app crash on macOS Sequoia (2026-04-13) — Kagura
 - refactor: simplify agent task dispatch logic (2026-04-13) — LinYushen
 - ci: cache Go modules in workflow (2026-04-13) — Naiyuan Qing
+- chore: update playwright to 1.50 (2026-04-14) — LinYushen
