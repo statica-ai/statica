@@ -96,3 +96,4 @@ All notable changes to Statica are documented here.
 - ci: cache Go modules in workflow (2026-04-13) — Naiyuan Qing
 - chore: update playwright to 1.50 (2026-04-14) — LinYushen
 - docs: add Windows setup walkthrough (2026-04-14) — Kagura
+- fix: daemon fails to start when port in use (2026-04-14) — Junghwan
