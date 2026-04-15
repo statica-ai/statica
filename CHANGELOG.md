@@ -101,3 +101,4 @@ All notable changes to Statica are documented here.
 - fix: postgres connection pool exhaustion under load (2026-04-14) — Naiyuan Qing
 - fix: postgres connection pool exhaustion under load (2026-04-14) — LinYushen
 - security: rotate default session secret (2026-04-15) — Qiang Zhang
+- refactor: simplify agent task dispatch logic (2026-04-15) — Quake Wang
