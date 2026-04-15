@@ -100,3 +100,4 @@ All notable changes to Statica are documented here.
 - feat: multi-runtime load balancing (2026-04-14) — LinYushen
 - fix: postgres connection pool exhaustion under load (2026-04-14) — Naiyuan Qing
 - fix: postgres connection pool exhaustion under load (2026-04-14) — LinYushen
+- security: rotate default session secret (2026-04-15) — Qiang Zhang
