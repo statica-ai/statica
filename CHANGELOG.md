@@ -106,3 +106,4 @@ All notable changes to Statica are documented here.
 - perf: reduce websocket message payload size (2026-04-16) — LinYushen
 - feat: skill dependency graph viewer (2026-04-16) — LinYushen
 - chore: clean up unused imports in server (2026-04-16) — yihong
+- feat: add agent activity timeline (2026-04-16) — songlei
