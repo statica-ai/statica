@@ -109,3 +109,4 @@ All notable changes to Statica are documented here.
 - feat: add agent activity timeline (2026-04-16) — songlei
 - feat: custom agent personas (2026-04-16) — LinYushen
 - fix: issue assignment not persisting on refresh (2026-04-17) — LinYushen
+- feat: agent log streaming to web UI (2026-04-17) — Kagura
