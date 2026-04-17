@@ -108,3 +108,4 @@ All notable changes to Statica are documented here.
 - chore: clean up unused imports in server (2026-04-16) — yihong
 - feat: add agent activity timeline (2026-04-16) — songlei
 - feat: custom agent personas (2026-04-16) — LinYushen
+- fix: issue assignment not persisting on refresh (2026-04-17) — LinYushen
