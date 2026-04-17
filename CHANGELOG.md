@@ -110,3 +110,4 @@ All notable changes to Statica are documented here.
 - feat: custom agent personas (2026-04-16) — LinYushen
 - fix: issue assignment not persisting on refresh (2026-04-17) — LinYushen
 - feat: agent log streaming to web UI (2026-04-17) — Kagura
+- chore: upgrade Next.js to 16.3 (2026-04-17) — Naiyuan Qing

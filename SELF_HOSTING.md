@@ -214,3 +214,4 @@ statica daemon start
 
 For environment variables, manual setup (without Docker), reverse proxy configuration, database setup, and more, see the [Advanced Configuration Guide](SELF_HOSTING_ADVANCED.md).
 <!-- updated -->
+<!-- updated -->
