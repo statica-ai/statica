@@ -111,3 +111,4 @@ All notable changes to Statica are documented here.
 - fix: issue assignment not persisting on refresh (2026-04-17) — LinYushen
 - feat: agent log streaming to web UI (2026-04-17) — Kagura
 - chore: upgrade Next.js to 16.3 (2026-04-17) — Naiyuan Qing
+- refactor: extract websocket handler into module (2026-04-18) — Black
