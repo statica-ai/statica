@@ -113,3 +113,4 @@ All notable changes to Statica are documented here.
 - chore: upgrade Next.js to 16.3 (2026-04-17) — Naiyuan Qing
 - refactor: extract websocket handler into module (2026-04-18) — Black
 - feat: multi-runtime load balancing (2026-04-18) — LinYushen
+- feat: custom agent personas (2026-04-18) — songlei
