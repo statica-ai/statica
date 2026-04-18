@@ -1,0 +1,16 @@
+name: statica
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: statica
+      POSTGRES_USER: ${POSTGRES_USER:-statica}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-statica}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
