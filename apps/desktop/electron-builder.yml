@@ -1,0 +1,51 @@
+appId: ai.statica.desktop
+productName: Statica
+directories:
+  buildResources: build
+files:
+  - "!**/.vscode/*"
+  - "!src/*"
+  - "!electron.vite.config.*"
+  - "!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}"
+  - "!{tsconfig.json,tsconfig.node.json,tsconfig.web.json}"
+protocols:
+  - name: Statica
+    schemes:
+      - statica
+asarUnpack:
+  - resources/**
+mac:
+  entitlementsInherit: build/entitlements.mac.plist
+  target:
+    - dmg
+    - zip
+  # Hardcoded name avoids the `@statica/desktop-*` subdirectory that
+  # `${name}` produces for scoped package names.
+  artifactName: statica-desktop-${version}-${arch}.${ext}
+  # Notarize via notarytool. Requires APPLE_ID + APPLE_APP_SPECIFIC_PASSWORD
+  # + APPLE_TEAM_ID env vars at package time. Non-mac contributors are
+  # unaffected because `pnpm package` already requires the Developer ID
+  # signing cert — notarization is a strict superset.
+  notarize: true
+dmg:
+  artifactName: statica-desktop-${version}-${arch}.${ext}
+linux:
+  target:
+    - AppImage
+    - deb
+  artifactName: ${name}-${version}-${arch}.${ext}
+win:
+  target:
+    - nsis
+  artifactName: ${name}-${version}-setup.${ext}
+publish:
+  provider: github
+  owner: statica-ai
+  repo: statica
+  # Align with our CLI release flow which pre-creates a *published* GitHub
+  # Release via `gh release create`. The electron-builder default of
+  # `releaseType: draft` conflicts with `existingType=release` and causes
+  # uploads of the DMG/ZIP/blockmaps/latest-mac.yml to be silently skipped,
+  # which breaks electron-updater auto-update on installed clients.
+  releaseType: release
+npmRebuild: false
