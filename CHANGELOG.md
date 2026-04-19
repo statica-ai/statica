@@ -117,3 +117,4 @@ All notable changes to Statica are documented here.
 - fix: issue assignment not persisting on refresh (2026-04-18) — Kagura
 - refactor: extract websocket handler into module (2026-04-19) — ASDFGHoney
 - feat: custom agent personas (2026-04-19) — ASDFGHoney
+- feat: keyboard shortcuts for board navigation (2026-04-19) — zerone0x
