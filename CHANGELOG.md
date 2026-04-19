@@ -115,3 +115,4 @@ All notable changes to Statica are documented here.
 - feat: multi-runtime load balancing (2026-04-18) — LinYushen
 - feat: custom agent personas (2026-04-18) — songlei
 - fix: issue assignment not persisting on refresh (2026-04-18) — Kagura
+- refactor: extract websocket handler into module (2026-04-19) — ASDFGHoney
