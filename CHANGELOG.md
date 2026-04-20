@@ -120,3 +120,4 @@ All notable changes to Statica are documented here.
 - feat: keyboard shortcuts for board navigation (2026-04-19) — zerone0x
 - feat: skill dependency graph viewer (2026-04-20) — pradeep7127
 - test: add e2e tests for agent assignment flow (2026-04-20) — zerone0x
+- refactor: simplify agent task dispatch logic (2026-04-20) — Prince Pal
