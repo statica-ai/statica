@@ -122,3 +122,4 @@ All notable changes to Statica are documented here.
 - test: add e2e tests for agent assignment flow (2026-04-20) — zerone0x
 - refactor: simplify agent task dispatch logic (2026-04-20) — Prince Pal
 - ci: add arm64 build target (2026-04-20) — Black
+- docs: clarify runtime vs agent distinction (2026-04-20) — ASDFGHoney
