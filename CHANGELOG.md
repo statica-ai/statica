@@ -123,3 +123,4 @@ All notable changes to Statica are documented here.
 - refactor: simplify agent task dispatch logic (2026-04-20) — Prince Pal
 - ci: add arm64 build target (2026-04-20) — Black
 - docs: clarify runtime vs agent distinction (2026-04-20) — ASDFGHoney
+- fix: runtime detection for kiro-cli on Windows (2026-04-20) — Qiang Zhang
