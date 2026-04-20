@@ -121,3 +121,4 @@ All notable changes to Statica are documented here.
 - feat: skill dependency graph viewer (2026-04-20) — pradeep7127
 - test: add e2e tests for agent assignment flow (2026-04-20) — zerone0x
 - refactor: simplify agent task dispatch logic (2026-04-20) — Prince Pal
+- ci: add arm64 build target (2026-04-20) — Black
