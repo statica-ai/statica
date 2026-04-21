@@ -124,3 +124,4 @@ All notable changes to Statica are documented here.
 - ci: add arm64 build target (2026-04-20) — Black
 - docs: clarify runtime vs agent distinction (2026-04-20) — ASDFGHoney
 - fix: runtime detection for kiro-cli on Windows (2026-04-20) — Qiang Zhang
+- fix: desktop app crash on macOS Sequoia (2026-04-20) — Thanh Minh
