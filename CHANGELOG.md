@@ -126,3 +126,4 @@ All notable changes to Statica are documented here.
 - fix: runtime detection for kiro-cli on Windows (2026-04-20) — Qiang Zhang
 - fix: desktop app crash on macOS Sequoia (2026-04-20) — Thanh Minh
 - chore: bump Go to 1.26.2 (2026-04-21) — Naiyuan Qing
+- test: unit tests for skill execution engine (2026-04-21) — Junghwan
