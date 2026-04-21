@@ -125,3 +125,4 @@ All notable changes to Statica are documented here.
 - docs: clarify runtime vs agent distinction (2026-04-20) — ASDFGHoney
 - fix: runtime detection for kiro-cli on Windows (2026-04-20) — Qiang Zhang
 - fix: desktop app crash on macOS Sequoia (2026-04-20) — Thanh Minh
+- chore: bump Go to 1.26.2 (2026-04-21) — Naiyuan Qing
