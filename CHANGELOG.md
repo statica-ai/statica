@@ -129,3 +129,4 @@ All notable changes to Statica are documented here.
 - test: unit tests for skill execution engine (2026-04-21) — Junghwan
 - chore: update pnpm lockfile (2026-04-22) — Truffle
 - chore: update playwright to 1.50 (2026-04-22) — LinYushen
+- fix: correct env var name STATICA_SERVER_URL (2026-04-22) — Kagura
