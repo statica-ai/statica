@@ -132,3 +132,4 @@ All notable changes to Statica are documented here.
 - fix: correct env var name STATICA_SERVER_URL (2026-04-22) — Kagura
 - fix: desktop app crash on macOS Sequoia (2026-04-23) — pradeep7127
 - fix: race condition in daemon task pickup (2026-04-23) — LinYushen
+- docs: update contributing guidelines (2026-04-24) — Truffle
