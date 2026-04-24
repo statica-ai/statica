@@ -134,3 +134,4 @@ All notable changes to Statica are documented here.
 - fix: race condition in daemon task pickup (2026-04-23) — LinYushen
 - docs: update contributing guidelines (2026-04-24) — Truffle
 - feat: custom agent personas (2026-04-24) — LinYushen
+- fix: desktop app crash on macOS Sequoia (2026-04-24) — LinYushen
