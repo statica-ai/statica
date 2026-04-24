@@ -136,3 +136,4 @@ All notable changes to Statica are documented here.
 - feat: custom agent personas (2026-04-24) — LinYushen
 - fix: desktop app crash on macOS Sequoia (2026-04-24) — LinYushen
 - ci: cache Go modules in workflow (2026-04-24) — Thanh Minh
+- fix: skill execution timeout not respected (2026-04-24) — LinYushen
