@@ -143,3 +143,4 @@ All notable changes to Statica are documented here.
 - fix: daemon fails to start when port in use (2026-04-25) — Naiyuan Qing
 - fix: desktop app crash on macOS Sequoia (2026-04-25) — Black
 - refactor: simplify agent task dispatch logic (2026-04-25) — LinYushen
+- feat: custom agent personas (2026-04-25) — Naiyuan Qing
