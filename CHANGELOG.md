@@ -141,3 +141,4 @@ All notable changes to Statica are documented here.
 - chore: update pnpm lockfile (2026-04-24) — Naiyuan Qing
 - perf: lazy-load board issue details (2026-04-25) — LinYushen
 - fix: daemon fails to start when port in use (2026-04-25) — Naiyuan Qing
+- fix: desktop app crash on macOS Sequoia (2026-04-25) — Black
