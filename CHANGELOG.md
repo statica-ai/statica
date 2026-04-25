@@ -139,3 +139,4 @@ All notable changes to Statica are documented here.
 - fix: skill execution timeout not respected (2026-04-24) — LinYushen
 - feat: add agent activity timeline (2026-04-24) — Bright Zheng
 - chore: update pnpm lockfile (2026-04-24) — Naiyuan Qing
+- perf: lazy-load board issue details (2026-04-25) — LinYushen
