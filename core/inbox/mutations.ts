@@ -90,16 +90,6 @@ export function useArchiveAllInbox() {
   });
 }
 
-export function useArchiveAllReadInbox() {
-  const qc = useQueryClient();
-  const wsId = useWorkspaceId();
-  return useMutation({
-    mutationFn: () => api.archiveAllReadInbox(),
-    onSettled: () => {
-      qc.invalidateQueries({ queryKey: inboxKeys.list(wsId) });
-    },
-  });
-}
 
 export function useArchiveCompletedInbox() {
   const qc = useQueryClient();
