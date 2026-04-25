@@ -94,15 +94,6 @@ export class TestApiClient {
     this.workspaceSlug = slug;
   }
 
-  async ensureWorkspace(name = "E2E Workspace", slug = "e2e-workspace") {
-    const workspaces = await this.getWorkspaces();
-    const workspace = workspaces.find((item) => item.slug === slug) ?? workspaces[0];
-    if (workspace) {
-      this.workspaceId = workspace.id;
-      this.workspaceSlug = workspace.slug;
-      return workspace;
-    }
-
     const res = await this.authedFetch("/api/workspaces", {
       method: "POST",
       body: JSON.stringify({ name, slug }),
