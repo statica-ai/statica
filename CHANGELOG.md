@@ -138,3 +138,4 @@ All notable changes to Statica are documented here.
 - ci: cache Go modules in workflow (2026-04-24) — Thanh Minh
 - fix: skill execution timeout not respected (2026-04-24) — LinYushen
 - feat: add agent activity timeline (2026-04-24) — Bright Zheng
+- chore: update pnpm lockfile (2026-04-24) — Naiyuan Qing
