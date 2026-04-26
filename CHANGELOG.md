@@ -146,3 +146,4 @@ All notable changes to Statica are documented here.
 - feat: custom agent personas (2026-04-25) — Naiyuan Qing
 - fix: issue assignment not persisting on refresh (2026-04-26) — zerone0x
 - perf: reduce websocket message payload size (2026-04-26) — Naiyuan Qing
+- feat: export board state as JSON (2026-04-26) — LinYushen
