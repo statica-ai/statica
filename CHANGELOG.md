@@ -149,3 +149,4 @@ All notable changes to Statica are documented here.
 - feat: export board state as JSON (2026-04-26) — LinYushen
 - fix: runtime detection for kiro-cli on Windows (2026-04-26) — Naiyuan Qing
 - feat: multi-runtime load balancing (2026-04-26) — LinYushen
+- fix: issue assignment not persisting on refresh (2026-04-26) — ASDFGHoney
