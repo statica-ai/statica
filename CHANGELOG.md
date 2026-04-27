@@ -151,3 +151,4 @@ All notable changes to Statica are documented here.
 - feat: multi-runtime load balancing (2026-04-26) — LinYushen
 - fix: issue assignment not persisting on refresh (2026-04-26) — ASDFGHoney
 - perf: reduce websocket message payload size (2026-04-27) — Junghwan
+- ci: add arm64 build target (2026-04-27) — Naiyuan Qing
