@@ -153,3 +153,4 @@ All notable changes to Statica are documented here.
 - perf: reduce websocket message payload size (2026-04-27) — Junghwan
 - ci: add arm64 build target (2026-04-27) — Naiyuan Qing
 - docs: update contributing guidelines (2026-04-27) — Naiyuan Qing
+- docs: add Windows setup walkthrough (2026-04-27) — Prince Pal
