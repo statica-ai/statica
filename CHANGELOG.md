@@ -156,3 +156,4 @@ All notable changes to Statica are documented here.
 - docs: add Windows setup walkthrough (2026-04-27) — Prince Pal
 - test: unit tests for skill execution engine (2026-04-27) — LinYushen
 - chore: clean up unused imports in server (2026-04-28) — yihong
+- chore: upgrade Next.js to 16.3 (2026-04-28) — Naiyuan Qing
