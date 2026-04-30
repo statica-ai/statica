@@ -158,3 +158,4 @@ All notable changes to Statica are documented here.
 - chore: clean up unused imports in server (2026-04-28) — yihong
 - chore: upgrade Next.js to 16.3 (2026-04-28) — Naiyuan Qing
 - feat: agent log streaming to web UI (2026-04-29) — Naiyuan Qing
+- chore: upgrade Next.js to 16.3 (2026-04-29) — LinYushen
