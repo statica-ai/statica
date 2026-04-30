@@ -162,3 +162,4 @@ All notable changes to Statica are documented here.
 - feat: multi-runtime load balancing (2026-04-29) — Kagura
 - docs: add troubleshooting section to CLI guide (2026-04-30) — Naiyuan Qing
 - feat: issue template support (2026-04-30) — Naiyuan Qing
+- feat: export board state as JSON (2026-04-30) — Qiang Zhang
