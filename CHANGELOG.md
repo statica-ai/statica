@@ -161,3 +161,4 @@ All notable changes to Statica are documented here.
 - chore: upgrade Next.js to 16.3 (2026-04-29) — LinYushen
 - feat: multi-runtime load balancing (2026-04-29) — Kagura
 - docs: add troubleshooting section to CLI guide (2026-04-30) — Naiyuan Qing
+- feat: issue template support (2026-04-30) — Naiyuan Qing
