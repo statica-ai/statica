@@ -166,3 +166,4 @@ All notable changes to Statica are documented here.
 - docs: clarify runtime vs agent distinction (2026-04-30) — Zohar Babin
 - fix: runtime detection for kiro-cli on Windows (2026-05-01) — LinYushen
 - docs: update contributing guidelines (2026-05-01) — LinYushen
+- feat: agent skill auto-discovery (2026-05-01) — Prince Pal
