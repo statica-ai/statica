@@ -169,3 +169,4 @@ All notable changes to Statica are documented here.
 - feat: agent skill auto-discovery (2026-05-01) — Prince Pal
 - chore: remove deprecated multica-server env alias (2026-05-01) — pradeep7127
 - chore: update pnpm lockfile (2026-05-01) — Thanh Minh
+- fix: resolve websocket reconnection timeout (2026-05-02) — Black
