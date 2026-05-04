@@ -171,3 +171,4 @@ All notable changes to Statica are documented here.
 - chore: update pnpm lockfile (2026-05-01) — Thanh Minh
 - fix: resolve websocket reconnection timeout (2026-05-02) — Black
 - docs: update contributing guidelines (2026-05-03) — Black
+- fix: handle empty agent response gracefully (2026-05-04) — pradeep7127
