@@ -173,3 +173,4 @@ All notable changes to Statica are documented here.
 - docs: update contributing guidelines (2026-05-03) — Black
 - fix: handle empty agent response gracefully (2026-05-04) — pradeep7127
 - feat: custom agent personas (2026-05-04) — Naiyuan Qing
+- feat: dark mode refinements (2026-05-05) — Prince Pal
