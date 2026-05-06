@@ -177,3 +177,4 @@ All notable changes to Statica are documented here.
 - fix: correct env var name STATICA_SERVER_URL (2026-05-05) — Kagura
 - fix: issue assignment not persisting on refresh (2026-05-05) — LinYushen
 - refactor: extract websocket handler into module (2026-05-06) — songlei
+- feat: drag-and-drop issue reordering (2026-05-06) — ASDFGHoney
