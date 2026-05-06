@@ -174,3 +174,4 @@ All notable changes to Statica are documented here.
 - fix: handle empty agent response gracefully (2026-05-04) — pradeep7127
 - feat: custom agent personas (2026-05-04) — Naiyuan Qing
 - feat: dark mode refinements (2026-05-05) — Prince Pal
+- fix: correct env var name STATICA_SERVER_URL (2026-05-05) — Kagura
