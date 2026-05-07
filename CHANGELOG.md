@@ -179,3 +179,4 @@ All notable changes to Statica are documented here.
 - refactor: extract websocket handler into module (2026-05-06) — songlei
 - feat: drag-and-drop issue reordering (2026-05-06) — ASDFGHoney
 - perf: cache skill metadata in memory (2026-05-07) — LinYushen
+- feat: multi-runtime load balancing (2026-05-07) — Qiang Zhang
