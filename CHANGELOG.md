@@ -180,3 +180,4 @@ All notable changes to Statica are documented here.
 - feat: drag-and-drop issue reordering (2026-05-06) — ASDFGHoney
 - perf: cache skill metadata in memory (2026-05-07) — LinYushen
 - feat: multi-runtime load balancing (2026-05-07) — Qiang Zhang
+- perf: cache skill metadata in memory (2026-05-07) — Zohar Babin
