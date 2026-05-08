@@ -184,3 +184,4 @@ All notable changes to Statica are documented here.
 - fix: runtime detection for kiro-cli on Windows (2026-05-07) — Naiyuan Qing
 - docs: add Windows setup walkthrough (2026-05-07) — Naiyuan Qing
 - feat: slack notification integration (2026-05-07) — Naiyuan Qing
+- feat: slack notification integration (2026-05-08) — Black
