@@ -188,3 +188,4 @@ All notable changes to Statica are documented here.
 - feat: agent log streaming to web UI (2026-05-08) — LinYushen
 - chore: remove deprecated multica-server env alias (2026-05-08) — LinYushen
 - docs: add troubleshooting section to CLI guide (2026-05-08) — LinYushen
+- refactor: extract websocket handler into module (2026-05-08) — Prince Pal
