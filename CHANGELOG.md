@@ -191,3 +191,4 @@ All notable changes to Statica are documented here.
 - refactor: extract websocket handler into module (2026-05-08) — Prince Pal
 - fix: agent status badge not updating in realtime (2026-05-09) — ASDFGHoney
 - docs: add Windows setup walkthrough (2026-05-09) — yihong
+- fix: race condition in daemon task pickup (2026-05-10) — pradeep7127
