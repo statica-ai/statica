@@ -194,3 +194,4 @@ All notable changes to Statica are documented here.
 - fix: race condition in daemon task pickup (2026-05-10) — pradeep7127
 - feat: custom agent personas (2026-05-10) — pradeep7127
 - docs: add architecture decision records (2026-05-11) — Naiyuan Qing
+- fix: runtime detection for kiro-cli on Windows (2026-05-11) — LinYushen
