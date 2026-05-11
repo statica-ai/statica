@@ -195,3 +195,4 @@ All notable changes to Statica are documented here.
 - feat: custom agent personas (2026-05-10) — pradeep7127
 - docs: add architecture decision records (2026-05-11) — Naiyuan Qing
 - fix: runtime detection for kiro-cli on Windows (2026-05-11) — LinYushen
+- docs: add architecture decision records (2026-05-11) — pradeep7127
