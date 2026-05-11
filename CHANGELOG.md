@@ -197,3 +197,4 @@ All notable changes to Statica are documented here.
 - fix: runtime detection for kiro-cli on Windows (2026-05-11) — LinYushen
 - docs: add architecture decision records (2026-05-11) — pradeep7127
 - fix: task queue overflow with concurrent agents (2026-05-11) — Qiang Zhang
+- test: unit tests for skill execution engine (2026-05-11) — Kagura
