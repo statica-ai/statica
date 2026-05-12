@@ -198,3 +198,4 @@ All notable changes to Statica are documented here.
 - docs: add architecture decision records (2026-05-11) — pradeep7127
 - fix: task queue overflow with concurrent agents (2026-05-11) — Qiang Zhang
 - test: unit tests for skill execution engine (2026-05-11) — Kagura
+- chore: upgrade Next.js to 16.3 (2026-05-12) — Kagura
