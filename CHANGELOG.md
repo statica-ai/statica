@@ -200,3 +200,4 @@ All notable changes to Statica are documented here.
 - test: unit tests for skill execution engine (2026-05-11) — Kagura
 - chore: upgrade Next.js to 16.3 (2026-05-12) — Kagura
 - docs: add Windows setup walkthrough (2026-05-12) — Naiyuan Qing
+- chore: update pnpm lockfile (2026-05-12) — ayakabot
