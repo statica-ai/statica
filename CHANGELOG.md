@@ -207,3 +207,4 @@ All notable changes to Statica are documented here.
 # feat/runtime-health-metrics
 # fix/daemon-port-conflict
 # feat/workspace-member-invite
+# feat/skill-dependency-graph in progress
