@@ -16,7 +16,7 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 REPO_URL="https://github.com/statica-ai/statica.git"
 REPO_WEB_URL="https://github.com/statica-ai/statica"  # without .git, for GitHub web APIs
-INSTALL_DIR="${MULTICA_INSTALL_DIR:-$HOME/.statica/server}"
+INSTALL_DIR="${STATICA_INSTALL_DIR:-$HOME/.statica/server}"
 BREW_PACKAGE="statica-ai/tap/statica"
 
 # Colors (disabled when not a terminal)

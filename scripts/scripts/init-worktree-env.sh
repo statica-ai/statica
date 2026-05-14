@@ -32,8 +32,8 @@ DATABASE_URL=postgres://statica:statica@localhost:${postgres_port}/${postgres_db
 
 PORT=${backend_port}
 JWT_SECRET=change-me-in-production
-MULTICA_SERVER_URL=ws://localhost:${backend_port}/ws
-MULTICA_APP_URL=${frontend_origin}
+STATICA_SERVER_URL=ws://localhost:${backend_port}/ws
+STATICA_APP_URL=${frontend_origin}
 
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=

@@ -61,31 +61,31 @@ These are configured on each user's machine, not on the server:
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `MULTICA_SERVER_URL` | `ws://localhost:8080/ws` | WebSocket URL for daemon → server connection |
-| `MULTICA_APP_URL` | `http://localhost:3000` | Frontend URL for CLI login flow |
-| `MULTICA_DAEMON_POLL_INTERVAL` | `3s` | How often the daemon polls for tasks |
-| `MULTICA_DAEMON_HEARTBEAT_INTERVAL` | `15s` | Heartbeat frequency |
+| `STATICA_SERVER_URL` | `ws://localhost:8080/ws` | WebSocket URL for daemon → server connection |
+| `STATICA_APP_URL` | `http://localhost:3000` | Frontend URL for CLI login flow |
+| `STATICA_DAEMON_POLL_INTERVAL` | `3s` | How often the daemon polls for tasks |
+| `STATICA_DAEMON_HEARTBEAT_INTERVAL` | `15s` | Heartbeat frequency |
 
 Agent-specific overrides:
 
 | Variable | Description |
 |----------|-------------|
-| `MULTICA_CLAUDE_PATH` | Custom path to the `claude` binary |
-| `MULTICA_CLAUDE_MODEL` | Override the Claude model used |
-| `MULTICA_CODEX_PATH` | Custom path to the `codex` binary |
-| `MULTICA_CODEX_MODEL` | Override the Codex model used |
-| `MULTICA_OPENCODE_PATH` | Custom path to the `opencode` binary |
-| `MULTICA_OPENCODE_MODEL` | Override the OpenCode model used |
-| `MULTICA_OPENCLAW_PATH` | Custom path to the `openclaw` binary |
-| `MULTICA_OPENCLAW_MODEL` | Override the OpenClaw model used |
-| `MULTICA_HERMES_PATH` | Custom path to the `hermes` binary |
-| `MULTICA_HERMES_MODEL` | Override the Hermes model used |
-| `MULTICA_GEMINI_PATH` | Custom path to the `gemini` binary |
-| `MULTICA_GEMINI_MODEL` | Override the Gemini model used |
-| `MULTICA_PI_PATH` | Custom path to the `pi` binary |
-| `MULTICA_PI_MODEL` | Override the Pi model used |
-| `MULTICA_CURSOR_PATH` | Custom path to the `cursor-agent` binary |
-| `MULTICA_CURSOR_MODEL` | Override the Cursor Agent model used |
+| `STATICA_CLAUDE_PATH` | Custom path to the `claude` binary |
+| `STATICA_CLAUDE_MODEL` | Override the Claude model used |
+| `STATICA_CODEX_PATH` | Custom path to the `codex` binary |
+| `STATICA_CODEX_MODEL` | Override the Codex model used |
+| `STATICA_OPENCODE_PATH` | Custom path to the `opencode` binary |
+| `STATICA_OPENCODE_MODEL` | Override the OpenCode model used |
+| `STATICA_OPENCLAW_PATH` | Custom path to the `openclaw` binary |
+| `STATICA_OPENCLAW_MODEL` | Override the OpenClaw model used |
+| `STATICA_HERMES_PATH` | Custom path to the `hermes` binary |
+| `STATICA_HERMES_MODEL` | Override the Hermes model used |
+| `STATICA_GEMINI_PATH` | Custom path to the `gemini` binary |
+| `STATICA_GEMINI_MODEL` | Override the Gemini model used |
+| `STATICA_PI_PATH` | Custom path to the `pi` binary |
+| `STATICA_PI_MODEL` | Override the Pi model used |
+| `STATICA_CURSOR_PATH` | Custom path to the `cursor-agent` binary |
+| `STATICA_CURSOR_MODEL` | Override the Cursor Agent model used |
 
 ## Database Setup
 

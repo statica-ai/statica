@@ -163,35 +163,35 @@ Daemon behavior is configured via flags or environment variables:
 
 | Setting | Flag | Env Variable | Default |
 |---------|------|--------------|---------|
-| Poll interval | `--poll-interval` | `MULTICA_DAEMON_POLL_INTERVAL` | `3s` |
-| Heartbeat interval | `--heartbeat-interval` | `MULTICA_DAEMON_HEARTBEAT_INTERVAL` | `15s` |
-| Agent timeout | `--agent-timeout` | `MULTICA_AGENT_TIMEOUT` | `2h` |
-| Max concurrent tasks | `--max-concurrent-tasks` | `MULTICA_DAEMON_MAX_CONCURRENT_TASKS` | `20` |
-| Daemon ID | `--daemon-id` | `MULTICA_DAEMON_ID` | hostname |
-| Device name | `--device-name` | `MULTICA_DAEMON_DEVICE_NAME` | hostname |
-| Runtime name | `--runtime-name` | `MULTICA_AGENT_RUNTIME_NAME` | `Local Agent` |
-| Workspaces root | — | `MULTICA_WORKSPACES_ROOT` | `~/statica_workspaces` |
+| Poll interval | `--poll-interval` | `STATICA_DAEMON_POLL_INTERVAL` | `3s` |
+| Heartbeat interval | `--heartbeat-interval` | `STATICA_DAEMON_HEARTBEAT_INTERVAL` | `15s` |
+| Agent timeout | `--agent-timeout` | `STATICA_AGENT_TIMEOUT` | `2h` |
+| Max concurrent tasks | `--max-concurrent-tasks` | `STATICA_DAEMON_MAX_CONCURRENT_TASKS` | `20` |
+| Daemon ID | `--daemon-id` | `STATICA_DAEMON_ID` | hostname |
+| Device name | `--device-name` | `STATICA_DAEMON_DEVICE_NAME` | hostname |
+| Runtime name | `--runtime-name` | `STATICA_AGENT_RUNTIME_NAME` | `Local Agent` |
+| Workspaces root | — | `STATICA_WORKSPACES_ROOT` | `~/statica_workspaces` |
 
 Agent-specific overrides:
 
 | Variable | Description |
 |----------|-------------|
-| `MULTICA_CLAUDE_PATH` | Custom path to the `claude` binary |
-| `MULTICA_CLAUDE_MODEL` | Override the Claude model used |
-| `MULTICA_CODEX_PATH` | Custom path to the `codex` binary |
-| `MULTICA_CODEX_MODEL` | Override the Codex model used |
-| `MULTICA_OPENCODE_PATH` | Custom path to the `opencode` binary |
-| `MULTICA_OPENCODE_MODEL` | Override the OpenCode model used |
-| `MULTICA_OPENCLAW_PATH` | Custom path to the `openclaw` binary |
-| `MULTICA_OPENCLAW_MODEL` | Override the OpenClaw model used |
-| `MULTICA_HERMES_PATH` | Custom path to the `hermes` binary |
-| `MULTICA_HERMES_MODEL` | Override the Hermes model used |
-| `MULTICA_GEMINI_PATH` | Custom path to the `gemini` binary |
-| `MULTICA_GEMINI_MODEL` | Override the Gemini model used |
-| `MULTICA_PI_PATH` | Custom path to the `pi` binary |
-| `MULTICA_PI_MODEL` | Override the Pi model used |
-| `MULTICA_CURSOR_PATH` | Custom path to the `cursor-agent` binary |
-| `MULTICA_CURSOR_MODEL` | Override the Cursor Agent model used |
+| `STATICA_CLAUDE_PATH` | Custom path to the `claude` binary |
+| `STATICA_CLAUDE_MODEL` | Override the Claude model used |
+| `STATICA_CODEX_PATH` | Custom path to the `codex` binary |
+| `STATICA_CODEX_MODEL` | Override the Codex model used |
+| `STATICA_OPENCODE_PATH` | Custom path to the `opencode` binary |
+| `STATICA_OPENCODE_MODEL` | Override the OpenCode model used |
+| `STATICA_OPENCLAW_PATH` | Custom path to the `openclaw` binary |
+| `STATICA_OPENCLAW_MODEL` | Override the OpenClaw model used |
+| `STATICA_HERMES_PATH` | Custom path to the `hermes` binary |
+| `STATICA_HERMES_MODEL` | Override the Hermes model used |
+| `STATICA_GEMINI_PATH` | Custom path to the `gemini` binary |
+| `STATICA_GEMINI_MODEL` | Override the Gemini model used |
+| `STATICA_PI_PATH` | Custom path to the `pi` binary |
+| `STATICA_PI_MODEL` | Override the Pi model used |
+| `STATICA_CURSOR_PATH` | Custom path to the `cursor-agent` binary |
+| `STATICA_CURSOR_MODEL` | Override the Cursor Agent model used |
 
 ### Self-Hosted Server
 

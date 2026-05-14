@@ -4,7 +4,7 @@
 #   irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex
 #
 # Self-host: starts a local Statica server + installs CLI + configures
-#   $env:MULTICA_MODE="local"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex
+#   $env:STATICA_MODE="local"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex
 #
 
 $ErrorActionPreference = "Stop"
@@ -15,7 +15,7 @@ $ErrorActionPreference = "Stop"
 $RepoUrl       = "https://github.com/statica-ai/statica.git"
 $RepoWebUrl    = "https://github.com/statica-ai/statica"
 $DefaultInstallDir = Join-Path $env:USERPROFILE ".statica\server"
-$InstallDir    = if ($env:MULTICA_INSTALL_DIR) { $env:MULTICA_INSTALL_DIR } else { $DefaultInstallDir }
+$InstallDir    = if ($env:STATICA_INSTALL_DIR) { $env:STATICA_INSTALL_DIR } else { $DefaultInstallDir }
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -176,7 +176,7 @@ Docker is not installed. Statica self-hosting requires Docker and Docker Compose
 Install Docker Desktop for Windows:
   https://docs.docker.com/desktop/install/windows-install/
 
-After installing Docker, re-run this script with `$env:MULTICA_MODE="local"`.
+After installing Docker, re-run this script with `$env:STATICA_MODE="local"`.
 "@
     }
 
@@ -279,7 +279,7 @@ function Start-DefaultInstall {
     Write-Host "     statica setup self-host      " -NoNewline; Write-Host "# Connect to a self-hosted server" -ForegroundColor DarkGray
     Write-Host ""
     Write-Host "  Self-hosting? Install the server first:"
-    Write-Host '     $env:MULTICA_MODE="with-server"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex'
+    Write-Host '     $env:STATICA_MODE="with-server"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex'
     Write-Host ""
 }
 
@@ -312,7 +312,7 @@ function Start-LocalInstall {
     Write-Host "  Default verification code: 888888"
     Write-Host ""
     Write-Host "  To stop all services:"
-    Write-Host '     $env:MULTICA_MODE="stop"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex'
+    Write-Host '     $env:STATICA_MODE="stop"; irm https://raw.githubusercontent.com/statica-ai/statica/main/scripts/install.ps1 | iex'
     Write-Host ""
 }
 
@@ -349,7 +349,7 @@ function Start-Stop {
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
-$mode = if ($env:MULTICA_MODE) { $env:MULTICA_MODE.ToLower() } else { "default" }
+$mode = if ($env:STATICA_MODE) { $env:STATICA_MODE.ToLower() } else { "default" }
 
 switch ($mode) {
     "with-server" { Start-LocalInstall }
