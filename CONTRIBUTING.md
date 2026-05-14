@@ -644,3 +644,4 @@ make check-worktree
 <!-- reviewed -->
 <!-- reviewed -->
 <!-- reviewed -->
+<!-- fix: agent status badge not updating in realtime -->
