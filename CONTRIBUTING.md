@@ -644,3 +644,4 @@ make check-worktree
 <!-- reviewed -->
 <!-- reviewed -->
 <!-- reviewed -->
+<!-- refactor: extract websocket handler into module -->
