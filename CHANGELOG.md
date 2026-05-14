@@ -203,3 +203,4 @@ All notable changes to Statica are documented here.
 - chore: update pnpm lockfile (2026-05-12) — ayakabot
 - fix: skill execution timeout not respected (2026-05-13) — Black
 # feat/agent-activity-timeline
+# fix/websocket-reconnect-timeout
