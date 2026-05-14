@@ -644,3 +644,4 @@ make check-worktree
 <!-- reviewed -->
 <!-- reviewed -->
 <!-- reviewed -->
+<!-- docs: update self-hosting quickstart guide -->
