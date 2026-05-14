@@ -644,3 +644,4 @@ make check-worktree
 <!-- reviewed -->
 <!-- reviewed -->
 <!-- reviewed -->
+<!-- chore: upgrade Next.js to 16.3 -->
