@@ -206,3 +206,4 @@ All notable changes to Statica are documented here.
 # fix/websocket-reconnect-timeout
 # feat/runtime-health-metrics
 # fix/daemon-port-conflict
+# feat/workspace-member-invite
