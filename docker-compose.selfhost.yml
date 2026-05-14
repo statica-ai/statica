@@ -56,7 +56,7 @@ services:
       CLOUDFRONT_KEY_PAIR_ID: ${CLOUDFRONT_KEY_PAIR_ID:-}
       CLOUDFRONT_PRIVATE_KEY: ${CLOUDFRONT_PRIVATE_KEY:-}
       COOKIE_DOMAIN: ${COOKIE_DOMAIN:-}
-      MULTICA_APP_URL: ${MULTICA_APP_URL:-http://localhost:3000}
+      STATICA_APP_URL: ${STATICA_APP_URL:-http://localhost:3000}
     restart: unless-stopped
 
   frontend:

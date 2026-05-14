@@ -15,16 +15,16 @@ POSTGRES_PORT ?= 5432
 PORT ?= 8080
 FRONTEND_PORT ?= 3000
 FRONTEND_ORIGIN ?= http://localhost:$(FRONTEND_PORT)
-MULTICA_APP_URL ?= $(FRONTEND_ORIGIN)
+STATICA_APP_URL ?= $(FRONTEND_ORIGIN)
 DATABASE_URL ?= postgres://$(POSTGRES_USER):$(POSTGRES_PASSWORD)@localhost:$(POSTGRES_PORT)/$(POSTGRES_DB)?sslmode=disable
 NEXT_PUBLIC_API_URL ?= http://localhost:$(PORT)
 NEXT_PUBLIC_WS_URL ?= ws://localhost:$(PORT)/ws
 GOOGLE_REDIRECT_URI ?= $(FRONTEND_ORIGIN)/auth/callback
-MULTICA_SERVER_URL ?= ws://localhost:$(PORT)/ws
+STATICA_SERVER_URL ?= ws://localhost:$(PORT)/ws
 
 export
 
-MULTICA_ARGS ?= $(ARGS)
+STATICA_ARGS ?= $(ARGS)
 
 COMPOSE := docker compose
 
@@ -182,13 +182,13 @@ server:
 	cd server && go run ./cmd/server
 
 daemon:
-	@$(MAKE) statica MULTICA_ARGS="daemon restart --profile local"
+	@$(MAKE) statica STATICA_ARGS="daemon restart --profile local"
 
 cli:
-	@$(MAKE) statica MULTICA_ARGS="$(MULTICA_ARGS)"
+	@$(MAKE) statica STATICA_ARGS="$(STATICA_ARGS)"
 
 statica:
-	cd server && go run ./cmd/statica $(MULTICA_ARGS)
+	cd server && go run ./cmd/statica $(STATICA_ARGS)
 
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo dev)
 COMMIT  ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo unknown)
