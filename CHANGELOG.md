@@ -205,3 +205,4 @@ All notable changes to Statica are documented here.
 # feat/agent-activity-timeline
 # fix/websocket-reconnect-timeout
 # feat/runtime-health-metrics
+# fix/daemon-port-conflict
