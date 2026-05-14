@@ -204,3 +204,4 @@ All notable changes to Statica are documented here.
 - fix: skill execution timeout not respected (2026-05-13) — Black
 # feat/agent-activity-timeline
 # fix/websocket-reconnect-timeout
+# feat/runtime-health-metrics
