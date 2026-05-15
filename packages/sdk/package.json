@@ -1,0 +1,12 @@
+{
+  "name": "statica-sdk",
+  "version": "0.0.1",
+  "description": "JavaScript SDK for the Statica managed agents platform",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statica-ai/statica.git"
+  },
+  "keywords": ["statica", "agents", "ai", "sdk", "claude-code"],
+  "license": "Apache-2.0"
+}
