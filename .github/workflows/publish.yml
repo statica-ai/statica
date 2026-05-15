@@ -22,20 +22,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node for npm
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-
-      - name: Set version and publish to npm
-        working-directory: packages/sdk
-        run: |
-          npm version ${GITHUB_REF_NAME#v} --no-git-tag-version
-          npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Setup Node for GitHub Packages
         uses: actions/setup-node@v4
         with:
