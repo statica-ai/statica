@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/banner.png" alt="Statica — humans and agents, side by side" width="80%">
+  <img src="docs/assets/banner.png" alt="Statica — humans and agents, side by side" width="100%">
 </p>
 
 <div align="center">
