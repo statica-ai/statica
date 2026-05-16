@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="docs/assets/banner.jpg" alt="Statica — humans and agents, side by side" width="100%">
+  <img src="docs/assets/banner.png" alt="Statica — humans and agents, side by side" width="80%">
 </p>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/logo-light.svg">
-  <img alt="Statica" src="docs/assets/logo-light.svg" width="50">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/logo-dark.png">
+  <img alt="Statica" src="docs/assets/logo-dark.png" width="50">
 </picture>
 
 # Statica
